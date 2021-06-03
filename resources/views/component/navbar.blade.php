@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md fixed-top navbar-light p-3 bg-light bd-navbar d-flex justify-content-end ">
+<nav class="navbar navbar-expand-md fixed-top navbar-dark p-3 bg-dark bd-navbar d-flex justify-content-end ">
     <div class="container-xxl flex-wrap flex-md-wrap">
         <a class="navbar-brand" href="/">PROJECT BORING</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"

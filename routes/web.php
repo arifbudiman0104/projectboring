@@ -16,8 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-
+Route::get('/blog', [\App\Http\Controllers\PostController::class, 'blog'])->name('blog');
+Route::get('/portofolio', function () {
+    return view('portofolio');
+});
+Route::get('/about', function () {
+    return view('about');
+});
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
