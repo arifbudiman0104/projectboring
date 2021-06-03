@@ -18,7 +18,7 @@
 <body>
     @include('component.navbar')
     <article>
-        <div class="col bg-dark">
+        <div class="col">
             <div class="container " style="height: 2cm"></div>
             <div class="row  pt-2">
                 {{-- Search --}}

@@ -16,7 +16,7 @@
 <body>
     @include('component.navbar')
     <div class=" bg-dark col-sm" style="height: 2cm"></div>
-    <div class="bg-dark text-white">
+    <div class="col ">
         <div class="p-5 mb-auto bg-dark">
             <div class="container-fluid py-5">
                 <h5 class="display-6 text-white fw-bold">Welcome to Project Boring</h5>
@@ -27,7 +27,7 @@
             </div>
         </div>
     </div>
-    <div class="p-5 bg-dark text-white">
+    <div class="p-5 ">
         <h3 class="pb-2">This website will discuss about:</h3>
         <div class="col justify-content-md-evenly">
 
@@ -67,8 +67,8 @@
                 </div>
             </div>
         </div>
-        @include('component.footer')
     </div>
+    @include('component.footer')
 
     <!-- Optional JavaScript; choose one of the two! -->
 
